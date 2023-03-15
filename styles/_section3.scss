@@ -1,0 +1,118 @@
+.section3 {
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.container-section3 {
+    width: 1000px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;      
+        color: #E8E8E8;  
+        margin-top: 10%;
+    }
+}
+
+.magnifyer {
+    font-size: 68px;
+    text-align: center;
+    color: #5474FD;
+    background-color: #333333;
+}
+
+.fa-circle-check {
+    font-size: 68px;
+    text-align: center;
+    color: #FF6363;
+    background-color: #333333;
+}
+
+.fa-thumbs-up {
+    font-size: 68px;
+    text-align: center;
+    color: #00A2FF;
+    background-color: #333333;
+}
+
+@media screen and (max-width: 1100px) {
+    
+    .container-section3 {
+        width: 70%;
+    
+        h2 {
+            font-size: 20px;
+        
+        }
+    }
+
+    .magnifyer {
+        font-size: 48px; 
+    }
+    
+    .fa-circle-check {
+        font-size: 48px;
+    }
+    
+    .fa-thumbs-up {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container-section3 {
+    
+        h2 {
+            font-size: 16px;
+        
+        }
+    }
+
+
+    .magnifyer {
+        font-size: 38px; 
+    }
+    
+    .fa-circle-check {
+        font-size: 38px;
+    }
+    
+    .fa-thumbs-up {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container-section3 {
+    
+        h2 {
+            font-size: 12px;
+        
+        }
+    }
+
+
+    .magnifyer {
+        font-size: 28px; 
+    }
+    
+    .fa-circle-check {
+        font-size: 28px;
+    }
+    
+    .fa-thumbs-up {
+        font-size: 28px;
+    }
+}

@@ -97,4 +97,104 @@
     padding-left: 15%;
 }
 
+@media screen and (max-width: 1100px) {
 
+    .container-section2 {
+        width: 60%;
+        min-height: 685px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .content-left {
+        width: 100%;
+    }
+
+    .textbox-section2 {
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .content-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img1-section2 {
+        width: 100%;
+        padding-right: 0%;
+        margin-top: 5%;
+    }
+    
+    .img2-section2 {
+        width: 100%;
+        padding-left: 0%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-section2 {
+        width: 60%;
+        min-height: 685px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .content-left {
+        width: 100%;
+    }
+
+    .textbox-section2 {
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 26px;
+            letter-spacing: 1.6px;   
+            color: #E8E8E8;
+            margin-bottom: 10%;
+        }
+    }
+
+    .content-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img1-section2 {
+        width: 100%;
+        padding-right: 0%;
+        margin-top: 5%;
+    }
+    
+    .img2-section2 {
+        width: 100%;
+        padding-left: 0%;
+        margin-bottom: 5%;
+    }
+}
