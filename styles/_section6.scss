@@ -62,11 +62,6 @@
         color: #FEFEFE; 
     }
 
-    .fa-quote-left {
-        font-size: 36px;
-        color: #5474FD;
-    }
-
     p {
         font-family: 'Josefin Sans';
         font-style: normal;
@@ -75,6 +70,11 @@
         line-height: 26px;
         color: #E8E8E8;
     }
+}
+
+.fa-quote-left {
+    font-size: 36px;
+    color: #5474FD;
 }
 
 @media screen and (max-width: 1200px) {
@@ -129,6 +129,11 @@
         }
     }
 
+    .fa-quote-left {
+        font-size: 26px;
+        color: #5474FD;
+    }
+
     .grid-container-section6 {
         width: 40%;
         display: grid;
@@ -146,4 +151,3 @@
         justify-content: center;
     }
 }
-
