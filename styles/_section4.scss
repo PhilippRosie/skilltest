@@ -1,0 +1,86 @@
+.section4 {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/images/background-img/background-section4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-left-section4 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.textbox-section4 {
+    max-width: 540px;
+    width: 100%;
+    min-height: 370px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-top: 10%;
+
+    h3 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1.5px;    
+        color: #E8E8E8;
+        margin-bottom: 5%;
+    }
+
+    h4 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 5%;
+    }
+
+    p {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #E8E8E8;
+        margin-bottom: 10%;
+    }
+}
+
+.section4-btn {
+    max-width: 230px;
+    width: 100%;
+    min-height: 65px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;   
+    border: none;
+    color: #FFFFFF;
+    background-color: #5474FD;
+}
+
+.section4-btn:hover {
+    background-color: #2140c8;
+    text-shadow: 0px 0px 3px #2140c8;
+    box-shadow: inset 0px 0px 10px white;
+    transition: 0.5s ease;
+}
