@@ -84,3 +84,41 @@
     box-shadow: inset 0px 0px 10px white;
     transition: 0.5s ease;
 }
+
+@media screen and (max-width: 1100px) {
+
+    .section4 {
+        justify-content: center;
+    }
+
+    .content-left-section4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .textbox-section4 {
+        width: 240px;
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        h4 {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
